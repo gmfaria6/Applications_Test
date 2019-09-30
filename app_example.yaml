@@ -1,4 +1,6 @@
-
+---
+kind: Application
+name: sw4iot-iot-appserver
 services:
   mongo:
     image: mongo:latest
