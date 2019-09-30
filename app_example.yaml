@@ -1,4 +1,4 @@
-kind: Application
+kind: Naoeaplicacao
 name: sw4iot-iot-pushapp
 containers:
     - name: pushapp
