@@ -1,9 +1,6 @@
-kind: Naoeaplicacao
-name: sw4iot-iot-pushapp
-containers:
-    - name: pushapp
-      image: sw4iot/pushapp:1.9
+version: "3.5"
 services:
   mongo:
     image: mongo:latest
     container_name: db-mongo
+    
