@@ -3,5 +3,6 @@ kind: Application
 name: sw4iot-iot-appserver
 services:
   mongo:
+    gateway: host
     image: mongo:latest
     container_name: db-mongo
