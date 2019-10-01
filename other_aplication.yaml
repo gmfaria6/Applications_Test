@@ -1,0 +1,8 @@
+---
+kind: Application
+name: aplicacao2
+services:
+  mongo:
+    gateway: host
+    image: mongo:latest
+    container_name: db-mongo-2
