@@ -1,1 +1,8 @@
-
+---
+kind: Application
+name: aplication-teste-mongo
+services:
+  mongo:
+    gateway: host
+    image: mongo:latest
+    container_name: db-mongo-1
