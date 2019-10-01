@@ -4,4 +4,4 @@ name: sw4iot-iot-appserver
 services:
   mongo:
     image: mongo:latest
-    container_name: db-mongo    
+    container_name: db-mongo
