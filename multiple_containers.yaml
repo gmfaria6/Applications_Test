@@ -5,9 +5,9 @@ services:
   mongo:
     container_name: mongo1
     image: mongo:latest
-    gateway: host
+    gateway: 5
     
   ubuntu:
-    container_name: ubuntu1
-    image: ubuntu:latest
+    container_name: mongo2
+    image: mongo:latest
     gateway: host
