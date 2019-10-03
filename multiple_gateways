@@ -1,0 +1,13 @@
+---
+kind: Application
+name: multiploscontainers
+services:
+  mongo:
+    container_name: mongo1
+    image: mongo:latest
+    gateway: 5
+    
+  ubuntu:
+    container_name: mongo2
+    image: mongo:latest
+    gateway: host
