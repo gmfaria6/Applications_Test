@@ -5,7 +5,7 @@ services:
   mongo:
     container_name: mongo11
     image: mongo:latest
-    gateway: 11
+    gateway: 3
     
   ubuntu:
     container_name: mongo22
