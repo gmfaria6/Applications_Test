@@ -1,0 +1,19 @@
+---
+kind: Application
+name: multiploscontainers
+services:
+  mongo:
+    container_name: mongo11
+    image: mongo:latest
+    gateway: host
+    expose:
+      - 2380
+      - 2280
+    
+  ubuntu:
+    container_name: mongo22
+    image: mongo:latest
+    gateway: host
+    expose:
+      - 8888
+      - 9999
