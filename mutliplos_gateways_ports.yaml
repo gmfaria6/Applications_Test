@@ -7,15 +7,15 @@ services:
     image: mongo:latest
     gateway: 2
     expose:
-      - 2380
-      - 2280    
+      - 2222
+      - 3333
   mongo:
     container_name: mongo33
     image: mongo:latest
     gateway: 3
     expose:
-      - 2381
-      - 2286    
+      - 4444
+      - 5555   
   mongo:
     container_name: mongo11
     image: mongo:latest
