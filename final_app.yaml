@@ -6,13 +6,11 @@ services:
     container_name: mongo11
     image: mongo:latest
     gateway: host
-
-  mongo:
+  mongo1:
     container_name: mongo22
     image: mongo:latest
     gateway: 2
-
-  mongo:
+  mongo2:
     container_name: mongo33
     image: mongo:latest
     gateway: 3
