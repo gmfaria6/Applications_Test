@@ -3,15 +3,23 @@ kind: Application
 name: multiploscontainers
 services:
   mongo:
-    container_name: mongo11
+    container_name: mongo22
     image: mongo:latest
-    gateway: 4
+    gateway: 2
     expose:
       - 2380
       - 2280
     
+  mongo:
+    container_name: mongo33
+    image: mongo:latest
+    gateway: 3
+    expose:
+      - 2381
+      - 2286
+    
   ubuntu:
-    container_name: mongo22
+    container_name: mongo11
     image: mongo:latest
     gateway: host
     expose:
