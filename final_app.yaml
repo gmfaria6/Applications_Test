@@ -1,0 +1,18 @@
+---
+kind: Application
+name: finalApp
+services:
+  mongo:
+    container_name: mongo11
+    image: mongo:latest
+    gateway: host
+
+  mongo:
+    container_name: mongo22
+    image: mongo:latest
+    gateway: 2
+
+  mongo:
+    container_name: mongo33
+    image: mongo:latest
+    gateway: 3
