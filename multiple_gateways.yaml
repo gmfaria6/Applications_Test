@@ -2,12 +2,12 @@
 kind: Application
 name: multiploscontainers
 services:
-  mongo:
+  mongo1:
     container_name: mongo11
     image: mongo:latest
     gateway: 2
     
-  ubuntu:
+  mongo2:
     container_name: mongo22
     image: mongo:latest
-    gateway: 3
+    gateway: host
