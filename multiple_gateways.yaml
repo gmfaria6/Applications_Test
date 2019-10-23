@@ -5,7 +5,7 @@ services:
   mongo1:
     container_name: mongo11
     image: mongo:latest
-    gateway: 2
+    gateway: 5
     
   mongo2:
     container_name: mongo22
