@@ -3,7 +3,7 @@ kind: Application
 name: multiploscontainers
 services:
 
-  mongo:
+  mongo1:
     container_name: mongo22
     image: mongo:latest
     gateway: host
@@ -11,7 +11,7 @@ services:
       - 2222
       - 3333
   
-  mongo:
+  mongo2:
     container_name: mongo33
     image: mongo:latest
     gateway: 54
@@ -19,7 +19,7 @@ services:
       - 4444
       - 5555   
   
-  mongo:
+  mongo3:
     container_name: mongo11
     image: mongo:latest
     gateway: host
