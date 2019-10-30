@@ -5,4 +5,4 @@ services:
   devices-app:
     gateway: host
     container_name: devicesapp
-    image: sw4iot/devicesapp:1.0
+    image: sw4iot/devicesapp
