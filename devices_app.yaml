@@ -2,6 +2,7 @@
 kind: Application
 name: sw4iot-iot-devicesapp
 services:
-      gateway: host
-      container_name: devicesapp
-      image: sw4iot/devicesapp:1.0
+  devices-app:
+    gateway: host
+    container_name: devicesapp
+    image: sw4iot/devicesapp:1.0
