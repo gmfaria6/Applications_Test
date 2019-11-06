@@ -14,7 +14,7 @@ services:
   mongo2:
     container_name: mongo33
     image: mongo:latest
-    gateway: 54
+    gateway: host
     expose:
       - 4444
       - 5555   
