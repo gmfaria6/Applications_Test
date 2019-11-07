@@ -2,19 +2,19 @@
 kind: Application
 name: finalApp
 services:
-  mongo:
+  finalapp1:
     container_name: finalapp1
     image: mongo:latest
     gateway: host
     ports:
       - 1111:2222
-  mongo1:
+  finalapp2:
     container_name: finalapp2
     image: mongo:latest
     gateway: 6
     ports:
       - 2222:3333
-  mongo2:
+  finalapp3:
     container_name: finalapp3
     image: mongo:latest
     gateway: 6
