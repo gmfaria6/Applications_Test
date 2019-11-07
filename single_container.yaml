@@ -1,8 +1,10 @@
 ---
 kind: Application
-name: aplicacao2
+name: singlecontainerapp
 services:
   mongo:
     gateway: host
     image: mongo:latest
-    container_name: db-mongo-2
+    container_name: db-mongo-1
+    ports:
+      1234-5678

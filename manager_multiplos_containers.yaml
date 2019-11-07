@@ -1,6 +1,6 @@
 ---
 kind: Application
-name: multiploscontainers
+name: multiploscontainershost
 services:
   mongo:
     container_name: mongo1
