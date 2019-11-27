@@ -7,4 +7,4 @@ services:
     image: mongo:latest
     container_name: db-mongo-1
     ports:
-      1234:5678
+      - 1234:5678
