@@ -11,12 +11,12 @@ services:
   finalapp2:
     container_name: finalapp2
     image: mongo:latest
-    gateway: 6
+    gateway: 15
     ports:
       - 2222:3333
   finalapp3:
     container_name: finalapp3
     image: mongo:latest
-    gateway: 6
+    gateway: 15
     ports:
       - 4444:5555
