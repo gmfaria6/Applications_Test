@@ -1,6 +1,6 @@
 ---
 kind: Application
-name: finalApp
+name: unbApp
 version: '3.8'
 services:
   sample-prod:
