@@ -1,5 +1,7 @@
+---
+kind: Application
+name: finalApp
 version: '3.8'
-
 services:
   sample-prod:
     image: yantrindade/fiware-app:latest
