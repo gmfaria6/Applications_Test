@@ -1,0 +1,13 @@
+kind: Application
+name: unbApp
+version: '3.8'
+services:
+  sample-prod:
+    gateway: host
+    container_name: unbApp
+    image: yantrindade/fiware-app:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 1337:80
