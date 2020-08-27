@@ -1,0 +1,10 @@
+kind: Application
+name: App_port_test
+version: "3.8"
+services:
+  wordpress:
+    gateway: host
+    container_name: wordp
+    image: wordpress
+    ports:
+      - "8000:80"
