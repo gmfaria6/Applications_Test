@@ -1,0 +1,10 @@
+kind: Application
+name: app5
+version: "3.8"
+services:
+  wordpress:
+    gateway: host
+    container_name: app5
+    image: wordpress
+    ports:
+      - 8000:80
